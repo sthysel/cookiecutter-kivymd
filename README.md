@@ -8,10 +8,21 @@ provides a containerized android build environment to build and deploy the
 application to an attached android device.
 
 
-# Quickstart
+# Usage
+
+## Quick start for existing cookiecutter users
 
 ```bash
-$ python -m venv ~/.venvs/cc
+$ cookiecutter gh:sthysel/cookiecutter-kivymd
+$ make deploy
+```
+## Install cookiecutter 
+
+Install cookiecutter where its convenient
+
+```bash
+$ python -m venv ~/.venvs/ccutter
+$ . ~/.venvs/ccutter/bin/activate
 $ python -m pip install cookiecutter
 $ cookiecutter gh:sthysel/cookiecutter-kivymd
 $ make deploy
