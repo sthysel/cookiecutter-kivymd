@@ -6,22 +6,19 @@ provides a containerized android build environment to build and deploy the
 application to an attached android device.
 
 
-## Quickstart
-
-Install the latest Cookiecutter 
+# Quickstart
 
 ```bash
-python -m pip install cookiecutter
-```
-
-Generate the project:
-
-```bash
-cookiecutter gh:sthysel/cookiecutter-kivymd.git
-```
-
-To build and deploy a android application 
-
-```bash
+$ python -m venv ~/.venvs/cc
+$ python -m pip install cookiecutter
+$ cookiecutter gh:sthysel/cookiecutter-kivymd
 $ make deploy
+```
+
+# Notes
+
+To install the android app using `adb` 
+
+```
+$ adb install -r bin/theapp.apt
 ```
