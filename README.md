@@ -1,9 +1,9 @@
 # Cookiecutter KivyMD template (Version 0.0.1)
 
 This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter) KivyMD
-template to automate the start of a new Kivy project.
-
-It generates the framework to develop, build and deploy a 
+template to automate the creation of a new [Kivy](https://kivy.org) project. It
+provides a containerized android build environment to build and deploy the
+application to an attached android device.
 
 
 ## Quickstart
@@ -14,7 +14,7 @@ Install the latest Cookiecutter
 python -m pip install cookiecutter
 ```
 
-Generate a Python package project:
+Generate the project:
 
 ```bash
 cookiecutter gh:sthysel/cookiecutter-kivymd.git
